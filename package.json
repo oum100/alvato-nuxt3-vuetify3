@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "vuejs",
+    "vue3",
+    "charts",
+    "apexcharts.js",
+    "apexcharts",
+    "nuxt3",
+    "vuetify"
+  ],
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.7",
+    "nuxt": "^3.11.2",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/robots": "^3.0.0",
+    "nuxt-icon": "^0.6.10",
+    "sass": "^1.75.0",
+    "vuetify": "^3.5.17"
+  }
+}
